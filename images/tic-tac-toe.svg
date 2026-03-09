@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg2)" rx="16"/>
+  <!-- Grid lines -->
+  <line x1="150" y1="60" x2="150" y2="360" stroke="#3a3a5c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="260" y1="60" x2="260" y2="360" stroke="#3a3a5c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="45" y1="160" x2="355" y2="160" stroke="#3a3a5c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="45" y1="260" x2="355" y2="260" stroke="#3a3a5c" stroke-width="5" stroke-linecap="round"/>
+  <!-- X marks (bright cyan) -->
+  <!-- Top-left X -->
+  <g stroke="#00d4ff" stroke-width="7" stroke-linecap="round">
+    <line x1="70" y1="85" x2="125" y2="135"/>
+    <line x1="125" y1="85" x2="70" y2="135"/>
+  </g>
+  <!-- Center X -->
+  <g stroke="#00d4ff" stroke-width="7" stroke-linecap="round">
+    <line x1="180" y1="185" x2="235" y2="235"/>
+    <line x1="235" y1="185" x2="180" y2="235"/>
+  </g>
+  <!-- Bottom-right X -->
+  <g stroke="#00d4ff" stroke-width="7" stroke-linecap="round">
+    <line x1="285" y1="285" x2="340" y2="335"/>
+    <line x1="340" y1="285" x2="285" y2="335"/>
+  </g>
+  <!-- O marks (bright pink/magenta) -->
+  <!-- Top-right O -->
+  <circle cx="308" cy="110" r="32" fill="none" stroke="#ff2e63" stroke-width="7"/>
+  <!-- Center-left O -->
+  <circle cx="97" cy="210" r="32" fill="none" stroke="#ff2e63" stroke-width="7"/>
+  <!-- Bottom-center O -->
+  <circle cx="205" cy="310" r="32" fill="none" stroke="#ff2e63" stroke-width="7"/>
+  <!-- Middle-right O -->
+  <circle cx="308" cy="210" r="32" fill="none" stroke="#ff2e63" stroke-width="7"/>
+  <!-- Win line (diagonal) -->
+  <line x1="60" y1="75" x2="350" y2="345" stroke="#00ff88" stroke-width="4" stroke-linecap="round" opacity="0.8" stroke-dasharray="8,4"/>
+  <!-- Title -->
+  <text x="200" y="38" font-family="'Segoe UI',Arial,sans-serif" font-size="22" fill="#e0e0ff" text-anchor="middle" font-weight="bold" letter-spacing="3">TIC TAC TOE</text>
+</svg>

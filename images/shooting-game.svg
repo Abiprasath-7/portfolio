@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#1a1a3e"/>
+      <stop offset="100%" style="stop-color:#0a0a1a"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Stars -->
+  <circle cx="50" cy="30" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="120" cy="60" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="200" cy="20" r="1.5" fill="#fff" opacity="0.9"/>
+  <circle cx="300" cy="50" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="350" cy="80" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="80" cy="120" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="250" cy="100" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="370" cy="150" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="30" cy="200" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="150" cy="180" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="320" cy="220" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="180" cy="250" r="1" fill="#fff" opacity="0.5"/>
+  <!-- Enemy 1 -->
+  <g transform="translate(80,50)">
+    <rect x="0" y="0" width="40" height="30" rx="5" fill="#ff4444"/>
+    <circle cx="12" cy="12" r="5" fill="#fff"/>
+    <circle cx="28" cy="12" r="5" fill="#fff"/>
+    <circle cx="12" cy="12" r="2.5" fill="#111"/>
+    <circle cx="28" cy="12" r="2.5" fill="#111"/>
+    <rect x="10" y="22" width="20" height="4" rx="2" fill="#cc0000"/>
+  </g>
+  <!-- Enemy 2 -->
+  <g transform="translate(220,40)">
+    <rect x="0" y="0" width="40" height="30" rx="5" fill="#ff6600"/>
+    <circle cx="12" cy="12" r="5" fill="#fff"/>
+    <circle cx="28" cy="12" r="5" fill="#fff"/>
+    <circle cx="12" cy="12" r="2.5" fill="#111"/>
+    <circle cx="28" cy="12" r="2.5" fill="#111"/>
+    <rect x="10" y="22" width="20" height="4" rx="2" fill="#cc5500"/>
+  </g>
+  <!-- Enemy 3 -->
+  <g transform="translate(150,90)">
+    <rect x="0" y="0" width="40" height="30" rx="5" fill="#aa44ff"/>
+    <circle cx="12" cy="12" r="5" fill="#fff"/>
+    <circle cx="28" cy="12" r="5" fill="#fff"/>
+    <circle cx="12" cy="12" r="2.5" fill="#111"/>
+    <circle cx="28" cy="12" r="2.5" fill="#111"/>
+    <rect x="10" y="22" width="20" height="4" rx="2" fill="#8833cc"/>
+  </g>
+  <!-- Bullets -->
+  <rect x="197" y="160" width="4" height="14" rx="2" fill="#00ff88"/>
+  <rect x="197" y="135" width="4" height="14" rx="2" fill="#00ff88" opacity="0.7"/>
+  <!-- Player Spaceship -->
+  <g transform="translate(175,230)">
+    <polygon points="25,0 50,40 40,45 25,35 10,45 0,40" fill="#00ccff"/>
+    <polygon points="25,5 45,38 25,30 5,38" fill="#0099cc"/>
+    <rect x="22" y="40" width="6" height="10" rx="2" fill="#ff8800"/>
+    <rect x="23" y="45" width="4" height="8" rx="2" fill="#ffcc00" opacity="0.8"/>
+  </g>
+  <!-- Score text -->
+  <text x="20" y="25" font-family="monospace" font-size="14" fill="#00ff88" font-weight="bold">SCORE: 2450</text>
+  <text x="300" y="25" font-family="monospace" font-size="14" fill="#00ff88" font-weight="bold">♥♥♥</text>
+</svg>
